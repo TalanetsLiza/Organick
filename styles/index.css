@@ -1,0 +1,15 @@
+:root {
+    --color-blue: #274C5B;
+    --color-light-green: #7EB693;
+    --color-white: #FFFFFF;
+    --color-grey: #525C60;
+    --color-light-gray: #B8B8B8;
+    --font-family-OpenSans: 'Open Sans', sans-serif;
+    --font-family-roboto: 'Roboto', sans-serif;
+    --font-family-yellowtail: 'Yellowtail', cursive;
+    --color-background-white: #E5E5E5;
+    --color-background-light-gray: #F9F8F8;
+    --color-background-blue: #274C5B;
+    --color-background-yellow: #EFD372;
+
+}
