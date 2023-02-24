@@ -1,3 +1,5 @@
+@import url(header.css);
+
 :root {
     --color-blue: #274C5B;
     --color-light-green: #7EB693;
@@ -7,9 +9,22 @@
     --font-family-OpenSans: 'Open Sans', sans-serif;
     --font-family-roboto: 'Roboto', sans-serif;
     --font-family-yellowtail: 'Yellowtail', cursive;
-    --color-background-white: #E5E5E5;
+    --color-background-white: #FFFFFF;
     --color-background-light-gray: #F9F8F8;
     --color-background-blue: #274C5B;
     --color-background-yellow: #EFD372;
 
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.block {
+    max-width: 1440px;
+    margin: 0 auto;
 }
