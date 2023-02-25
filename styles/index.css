@@ -1,6 +1,7 @@
 @import url(header.css);
 @import url(purchase.css);
 @import url(promo.css);
+@import url(advantages.css);
 
 :root {
     --color-blue: #274C5B;
