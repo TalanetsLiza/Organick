@@ -1,4 +1,5 @@
 @import url(header.css);
+@import url(purchase.css);
 
 :root {
     --color-blue: #274C5B;
@@ -13,7 +14,6 @@
     --color-background-light-gray: #F9F8F8;
     --color-background-blue: #274C5B;
     --color-background-yellow: #EFD372;
-
 }
 
 body {

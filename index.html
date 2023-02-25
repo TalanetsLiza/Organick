@@ -15,8 +15,12 @@
 <body>
     <header class="header block">
         <div class="header__container">
-            <img src="/images/logo.svg" alt="logo">
-            <nav>
+            <img class="header__logo" src="/images/logo.svg" alt="logo">
+            <input class="header__menu-input" type="checkbox" id="header-menu-button"/>
+            <label class="header__menu-button" for="header-menu-button">
+                <span class="header__menu-button-line"></span>
+            </label>
+            <nav class="header__nav">
                 <ul class="header__list">
                     <li class="header__item"><a class="header__link" href="#">Home</a></li>
                     <li class="header__item"><a class="header__link" href="#">About Us</a></li>
@@ -25,8 +29,8 @@
                     <li class="header__item"><a class="header__link" href="#">Contact Us</a></li>
                 </ul>
             </nav>
-            <a class="header__purchase purchase" href="#">
-                <img src="images/purchase.svg"alt="purchase">
+            <a class="purchase" href="#">
+                <img class="purchase__image" src="images/purchase.svg"alt="purchase">
                 <span class="purchase__count">Cart</span>
                 <span>0</span> 
             </a>
