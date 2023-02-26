@@ -1,0 +1,124 @@
+.about-us {
+    background-color: var(--color-background-light-gray);
+    box-sizing: border-box;
+}
+
+.about-us__block {
+    display: flex;
+    align-items: center;
+    padding: 140px 30px;
+}
+
+.about-us__image {
+    max-width: 100%;
+}
+
+.about-us__info-block {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 675px;
+}
+
+.about-us__title {
+    font-family: var(--font-family-yellowtail);
+    color: var(--color-light-green); 
+    font-size: 36px;
+    line-height: 65px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.about-us__caption {
+    font-family: var(--font-family-roboto);
+    color: var(--color-blue);
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+
+.about-us__description {
+    font-family: var(--font-family-OpenSans);
+    color: var(--color-grey);
+    letter-spacing: 0.36px;
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 1024px) {
+
+    .about-us__info-block {
+        max-width: 100%;
+    }
+
+    .about-us__image {
+        display: none;
+    }
+
+    .about-us__block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 140px 30px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .about-us__block {
+        padding: 80px 15px;
+    }
+
+    .about-us__info-block {
+        align-items: center;
+    }
+ 
+    .about-us__title {
+        font-size: 30px;
+        padding-bottom: 5px;
+        line-height: 38px;
+    }
+    
+    .about-us__caption {
+        font-size: 30px;
+        line-height: 48px;
+    }
+    
+    .about-us__description {
+        text-align: justify;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 615px) {
+ 
+    .about-us__title {
+        font-size: 30px;
+        padding-bottom: 5px;
+        line-height: 38px;
+    }
+    
+    .about-us__caption {
+        font-size: 25px;
+        line-height: 38px;
+        text-align: center;
+    }
+    
+    .about-us__description {
+        text-align: justify;
+        line-height: 28px;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .about-us__block {
+        padding: 50px 30px;
+    }
+}
