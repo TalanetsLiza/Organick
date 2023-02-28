@@ -6,6 +6,9 @@
 @import url(info-about-us.css);
 @import url(products.css);
 @import url(card.css);
+@import url(testimonial.css);
+@import url(review.css);
+@import url(fact-in-numbers.css);
 
 :root {
     --color-blue: #274C5B;
