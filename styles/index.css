@@ -13,6 +13,7 @@
 @import url(eco-friendly.css);
 @import url(banners.css);
 @import url(subscription.css);
+@import url(footer.css);
 
 :root {
     --color-blue: #274C5B;
@@ -36,6 +37,14 @@ body {
 
 a {
     text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-type: none;
 }
 
 .block {
