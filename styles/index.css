@@ -12,6 +12,7 @@
 @import url(offer-products.css);
 @import url(eco-friendly.css);
 @import url(banners.css);
+@import url(subscription.css);
 
 :root {
     --color-blue: #274C5B;
@@ -59,9 +60,10 @@ a {
     justify-content: space-between;
 }
 
-.button-blue {
+.button_blue {
     background-color: var(--color-background-blue);
     color: var(--color-white);
+    border: 1px solid var(--color-blue);
     width: 200px;
     white-space: nowrap;
 }
@@ -80,9 +82,8 @@ a {
 
 @media (max-width: 615px) {
 
-    .button-blue {
+    .button_blue {
         justify-content: center;
-        width: 200px;
         white-space: nowrap;
     }    
 }
