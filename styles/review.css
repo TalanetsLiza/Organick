@@ -6,6 +6,11 @@
     width: 100%;
 }
 
+.review-star:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
 .review__image {
     max-width: 115px;
     padding-bottom: 20px;
